@@ -1,0 +1,129 @@
+html {
+	min-height: 100%;
+	background: #fff;
+	color: #777;
+	padding: 0px;
+	margin: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+}
+body {
+	padding: 0px;
+	margin: 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: #000;
+	font-size: 1.7rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+ul h5 {
+	font-size: 1rem;
+}
+li p {
+	font-size: .8rem;
+}
+p{
+	line-height: 1.4;
+	font-size: 1.1rem;
+	font-weight: 400;
+	margin: 10px 0px;
+}
+header {
+	box-shadow: 0px 3px 10px 0px rgb(38 107 193 / 8%);
+	display: -webkit-flex; 
+	display: flex;
+	justify-content: center;
+}
+nav {
+	padding: 20px 0px;
+	width: 100%;
+	max-width: 1240px;
+	display: -webkit-flex; 
+	display: flex;
+	justify-content:flex-end;
+}
+nav a {
+	margin-right: 15px;
+	font-weight: 600;
+	color: #333;
+}
+main {
+	display: -webkit-flex; 
+	display: flex;
+	justify-content: center;
+	padding: 0px 10%;
+}
+article {
+	max-width: 1240px;
+	display: -webkit-flex; 
+	display: flex;
+	justify-content:center;
+	flex-direction: column;
+}
+.casino {
+	width: 100%;
+}
+.cimg img {
+	max-height: 70px;
+}
+.casino p {
+	font-size: 0.9rem;
+	margin: 0px;
+}
+.casino td {
+	margin-bottom: 15px;
+}
+.casino button {
+	border: none;
+	padding: 10px 25px;
+	border-radius: 4px;
+}
+.row {
+	display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+/*   grid-template-rows: repeat(3, 200px); */
+  grid-gap: 1rem;
+  grid-auto-flow: dense;
+}
+.item {
+	border: 1px solid #f5f5f5;
+	display: -webkit-flex; 
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+.item p {
+	text-align: center;
+	font-weight: 600;
+	padding: 0px 10px;
+	font-size: .9rem;
+	color: #ba0000;
+}
+.item img {
+	max-width: 100%;
+	
+}
+.item span {
+	font-size: 1.2rem;
+	text-align: center;
+	color: #000;
+	display: block;
+}
+.item button:hover {
+	cursor: pointer;
+	background-color: #00c17a;
+	border-bottom: 2px #00c17a solid;
+}
+.item button {
+	border: none;
+	font-size: 1.1rem;
+	text-transform: lowercase;
+	font-weight: 800;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #00c17a;
+	text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
+	border-bottom: 2px #009a62 solid;
+	border-radius: 2px;
+	color: #fff;
+}
